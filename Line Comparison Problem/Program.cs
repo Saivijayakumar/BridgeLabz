@@ -32,6 +32,17 @@ namespace Line_Comparison_Problem
 
             Console.WriteLine("Second line length is : "+Length_of_second_Line);
 
+            //UC2--->checking the equality
+            //Checking the equality of two lines by using equals method
+            if(Length_of_first_Line.Equals(Length_of_second_Line))
+            {
+                Console.WriteLine("Both Lines Are Equal");
+            }
+            else
+            {
+                Console.WriteLine("Both Lines Are Not Equal");
+            }
+
             Console.Read();
         }
     }
