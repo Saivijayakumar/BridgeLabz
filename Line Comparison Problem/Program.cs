@@ -11,7 +11,7 @@ namespace Line_Comparison_Problem
     {
         static void Main(string[] args)
         {
-            
+            Console.Read();
         }
     }
 }
