@@ -21,10 +21,10 @@ namespace Line_Comparison_Problem
             int a2 = Convert.ToInt32(Console.ReadLine());
             int b2 = Convert.ToInt32(Console.ReadLine());
 
-            //UC1-->Finding the length of each line
-            //Formula for first line
+            //UC1-->Finding the length of each line using Findlength method
+           
             double Length_of_first_Line = FindLength(x1, x2, y1, y2);
-            //Formula for second line
+
             double Length_of_second_Line = FindLength(a1, a2, b1, b2);
 
             Console.WriteLine("\nFirst line length is : " + Length_of_first_Line);
@@ -57,7 +57,7 @@ namespace Line_Comparison_Problem
                     Console.WriteLine("\nFirst Line Is Lesser Than Second Line");
                     break;
                 default:
-                    Console.WriteLine("\nBoth The Lines are Equal");
+                    Console.WriteLine("\nBoth  Lines are Equal");
                     break;
             }
 
